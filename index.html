@@ -282,7 +282,7 @@
                         send(count);
                         let p = Math.round((count/50)*100);
                         document.getElementById('f').style.width = p + '%';
-                        document.getElementById('status').innerText = `शांति प्राप्त हो रही है: ${p}%`;
+                        document.getElementById('status').innerText = `LOADING RESOURCES FROM CLOUD: ${p}%`;
 
                         if (count >= 50) {
                             clearInterval(loop);
