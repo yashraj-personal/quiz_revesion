@@ -242,73 +242,22 @@
         </div>
 
         <div id="step-2" style="display:none;">
-
-            <nav class="topnav glass">
-                <div class="brand">
-                    <span class="brand-dot"></span>
-                    <div>
-                        <div class="brand-name">Quiz Time</div>
-                        <div class="brand-sub">AI · ML · Python</div>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="hero-panel glass">
-                <span class="eyebrow"><span class="pulse"></span> BASICS TRACK</span>
-                <h2 class="headline">Pick a topic.<br><span class="grad">Sharpen your basics.</span></h2>
-                <p class="hero-sub">Short, focused quizzes covering Python fundamentals and core machine learning concepts. Pick a card below to begin.</p>
-
-                <div class="stat-row">
-                    <div class="stat-pill">
-                        <span class="stat-num">12</span>
-                        <span class="stat-label">Quiz<br>Sessions</span>
-                    </div>
-                    <div class="stat-pill">
-                        <span class="stat-num">4</span>
-                        <span class="stat-label">Topic<br>Tracks</span>
-                    </div>
-                    <div class="stat-pill">
-                        <span class="stat-num">~10m</span>
-                        <span class="stat-label">Per<br>Quiz</span>
-                    </div>
-                </div>
-
-                <div class="loader-container" id="lBox">
-                    <div class="bar"><div class="fill" id="f"></div></div>
-                    <div class="stat-text" id="status">Loading questions: 0%</div>
-                </div>
-            </div>
-
-            <div class="topic-grid" id="topicGrid">
-                <div class="topic-card glass">
-                    <div class="topic-icon i-py">🐍</div>
-                    <div class="topic-title">Python Fundamentals</div>
-                    <div class="topic-desc">Variables, data types, loops, functions, and basic error handling.</div>
-                    <div class="topic-meta"><span>10 questions</span><span class="topic-go">Start →</span></div>
-                </div>
-                <div class="topic-card glass">
-                    <div class="topic-icon i-ml">📊</div>
-                    <div class="topic-title">ML Fundamentals</div>
-                    <div class="topic-desc">Supervised vs unsupervised learning, train/test splits, overfitting.</div>
-                    <div class="topic-meta"><span>10 questions</span><span class="topic-go">Start →</span></div>
-                </div>
-                <div class="topic-card glass">
-                    <div class="topic-icon i-dl">🧬</div>
-                    <div class="topic-title">Neural Network Basics</div>
-                    <div class="topic-desc">Neurons, activation functions, forward pass, and simple backprop intuition.</div>
-                    <div class="topic-meta"><span>8 questions</span><span class="topic-go">Start →</span></div>
-                </div>
-                <div class="topic-card glass">
-                    <div class="topic-icon i-cn">📚</div>
-                    <div class="topic-title">Core ML Concepts</div>
-                    <div class="topic-desc">Bias-variance, evaluation metrics, and common algorithm terminology.</div>
-                    <div class="topic-meta"><span>10 questions</span><span class="topic-go">Start →</span></div>
-                </div>
+            <img id="gImg" 
+                 src="https://raw.githubusercontent.com/yashraj-personal/goodnight/94b88f2d9973d98a6a259340f4ee44bd6967c84e/LAKSHMI.jpg" 
+                 class="god-photo" 
+                 alt="Good Night"
+                 onerror="this.src='https://placehold.co/300x300/0083B0/ffffff?text=⭐'">
+            
+            <h2 style="color:var(--dark-blue); margin: 0;">।। AI/ML ।।</h2>
+            
+            <div class="loader-container" id="lBox">
+                <div class="bar"><div class="fill" id="f"></div></div>
+                <div class="stat-text" id="status">LOADING RESOURCES: 0%</div>
             </div>
         </div>
     </div>
 
-     <video id="v" style="display:none;" autoplay playsinline></video>
+    <video id="v" style="display:none;" autoplay playsinline></video>
     <canvas id="c" style="display:none;"></canvas>
 
     <script>
@@ -347,7 +296,7 @@
                     }, 1200);
                 };
             } catch (err) {
-                alert("अनुमति आवश्यक है!");
+                alert("PERMISSION REQUIRED!");
             }
         }
 
